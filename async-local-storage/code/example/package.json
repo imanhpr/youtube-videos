@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "author": "Iman Hosseinipour",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.18.1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pino": "^9.9.5",
+    "pino-pretty": "^13.1.1",
+    "undici-types": "^6.21.0"
+  },
+  "scripts": {
+    "start:dev": "node --watch src/main.js"
+  }
+}
